@@ -1,0 +1,422 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#003366;
+    color:white;
+    padding:20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:left;
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+
+}
+
+nav a:hover{
+
+    color:gold;
+
+}
+
+.hero{
+
+    text-align:center;
+    padding:60px 20px;
+
+}
+
+.hero img{
+
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #003366;
+
+}
+
+.hero h2{
+
+    margin-top:20px;
+    font-size:40px;
+
+}
+
+.hero p{
+
+    margin:20px auto;
+    width:60%;
+    font-size:18px;
+    line-height:1.8;
+
+}
+
+button{
+
+    background:#003366;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+
+}
+
+button:hover{
+
+    background:gold;
+    color:black;
+
+}
+
+footer{
+
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:60px;
+
+}
+/* About Page */
+
+/* About Page */
+
+/* ================= ABOUT PAGE ================= */
+
+.about{
+    width:80%;
+    max-width:900px;
+    margin:40px auto;
+    padding:40px;
+    background:#ffffff;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about h2{
+    text-align:center;
+    color:navy;
+    margin-bottom:30px;
+}
+
+.about img{
+    display:block;
+    width:220px;
+    height:220px;
+    margin:20px auto;
+    border-radius:50%;
+    border:5px solid navy;
+    object-fit:cover;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:20px;
+    text-align:justify;
+}
+
+.about h3{
+    color:navy;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+.about ul{
+    list-style:none;
+    padding:0;
+}
+
+.about li{
+    background:#f4f4f4;
+    padding:15px 20px;
+    margin:10px 0;
+    border-left:6px solid navy;
+    border-radius:5px;
+    font-size:18px;
+}
+/* ================= SKILLS PAGE ================= */
+
+.skills{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    text-align:center;
+}
+
+.skills h2{
+    color:navy;
+    margin-bottom:15px;
+    font-size:36px;
+}
+
+.skills-text{
+    font-size:18px;
+    margin-bottom:40px;
+    color:#555;
+}
+
+.skills-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.skill-card{
+    width:300px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+}
+
+.skill-card h3{
+    color:navy;
+    margin-bottom:15px;
+}
+
+.skill-card p{
+    margin-bottom:20px;
+    line-height:1.6;
+}
+
+.progress{
+    width:100%;
+    height:20px;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    height:100%;
+    color:white;
+    text-align:center;
+    line-height:20px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.html{
+    width:90%;
+    background:#e44d26;
+}
+
+.css{
+    width:80%;
+    background:#264de4;
+}
+
+.javascript{
+    width:65%;
+    background:#f0db4f;
+    color:black;
+}
+
+.python{
+    width:60%;
+    background:#3776ab;
+}
+
+.github{
+    width:50%;
+    background:#333;
+}
+
+.problem{
+    width:85%;
+    background:green;
+}
+.database{
+    width:45%;
+    background:#928531;
+}
+.server{
+    width:70%;
+    background:#311585;
+}
+.browser{
+    width:95%;
+    background:#1d9dbd;
+}
+/* ================= GALLERY PAGE ================= */
+
+.gallery{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    text-align:center;
+}
+
+.gallery h2{
+    color:navy;
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.gallery-text{
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.gallery-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+    gap:25px;
+}
+
+.gallery-item{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.gallery-item:hover{
+    transform:translateY(-10px);
+}
+
+.gallery-item img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    transition:0.4s;
+}
+
+.gallery-item:hover img{
+    transform:scale(1.05);
+}
+
+.gallery-item h3{
+    padding:15px;
+    color:navy;
+}
+
+.contact{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.contact h2{
+    text-align:center;
+    color:navy;
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.contact-text{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.contact-container{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.contact-form{
+    flex:2;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.contact-info{
+    flex:1;
+    background:navy;
+    color:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.contact-info h3{
+    margin-top:20px;
+    margin-bottom:10px;
+    color:gold;
+}
+
+.contact-info p{
+    margin-bottom:10px;
+    line-height:1.7;
+}
+
+.contact-form label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+    outline:none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color:navy;
+}
+
+.contact-form button{
+    width:100%;
+    padding:15px;
+    background-color:#25D366;   /* WhatsApp Green */
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-form button:hover{
+    background-color:#128C7E;   /* Darker WhatsApp Green */
+}
+/* Responsive */
+
+@media(max-width:768px){
+
+    .contact-container{
+        flex-direction:column;
+    }
+
+}
