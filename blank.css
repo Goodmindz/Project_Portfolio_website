@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+}
+
+p{
+    color: red;
+}
+body{
+    background-color: beige;
+}
+h1{
+    font-size:50px;
+}
+body{
+    font-family: Tahoma;
+}
+h1{
+    text-align:center;
+}
+p{
+    font-style:italic;
+}
+/* This is a comment */

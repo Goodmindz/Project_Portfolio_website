@@ -1,0 +1,61 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.login-box{
+
+    background: white;
+
+    width: 320px;
+
+    padding: 60px;
+
+    border-radius: 10px;
+
+}
+
+.login-box h2{
+
+    text-align: center;
+
+}
+
+input{
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+}
+
+button{
+
+    width: 100%;
+
+    padding: 12px;
+
+    background: blue;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+}
+
+button:hover{
+
+    background: darkblue;
+
+}
